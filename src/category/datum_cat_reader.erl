@@ -168,7 +168,6 @@ flatten({ok, _} = X, _Env) ->
 flatten({error, _} = X, _Env) ->
    X.
 
-
 %%
 %% transforms option category to identity
 -spec optionT( datum:option(), _ ) -> datum:either(_).
